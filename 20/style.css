@@ -45,4 +45,7 @@ div {
 
 img {
     width: 5%;
+    display: block;
+    margin-top: 40%;
+    margin-left: 44%;
 }
