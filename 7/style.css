@@ -1,3 +1,52 @@
 body {
     background-color: #322F6D;
+    width: 80%;
+    position: center;
+    margin-left: 10%;
+    color: white;
+}
+
+.top {
+    padding-left: 40%;
+    margin-bottom: -10%;
+    margin-top: 10%;
+}
+
+.bottom {
+    background-color: deeppink;
+    height: 600px;
+    margin-top: 15%;
+}
+
+.left {
+    background-color: white;
+    border-radius: 25px;
+    height: 85%;
+    width: 32%;
+    display: block;
+    margin-top: 5%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.middle {
+    background-color: white;
+    border-radius: 25px;
+    height: 40%;
+    width: 32%;
+    display: block;
+    margin-top: 2%;
+    float: left;
+    margin-right: 10px;
+}
+
+.righ {
+    background-color: white;
+    border-radius: 25px;
+    height: 40%;
+    width: 32%;
+    display: block;
+    float: left;
+    margin-right: 10px0;
 }
