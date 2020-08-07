@@ -1,76 +1,44 @@
 body {
-    background-color: #322F6D;
-    width: 80%;
-    position: center;
-    margin-left: 10%;
-    color: white;
+    background-color: rebeccapurple;
 }
-
-.top {
-    margin-left: 33%;
-    margin-bottom: -20%;
-    margin-top: 10%;
-    text-align: center;
-    width: 33%;
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "left middle right" "bottom-left bottom-middle bottom-right";
 }
 
 .bottom {
-    height: 500px;
-    margin-top: 20%;
-}
 
-.left {
-    background-color: white;
-    border-radius: 10px;
-    height: 84.5%;
-    width: 30%;
-    display: block;
-    margin-top: 5%;
-    float: left;
-    margin-right: 40px;
-    margin-left: 35px;
-}
-
-.middle {
-    background-color: white;
-    border-radius: 10px;
-    height: 94%;
-    width: 30%;
-    display: block;
-    margin-top: 2%;
-    float: left;
-    margin-right: 40px;
 }
 
 .right {
+    grid-area: right;
     background-color: white;
-    border-radius: 10px;
-    height: 100%;
-    width: 30%;
-    display: block;
-    float: left;
+    grid-row: 10;
+    height: 400%;
 }
 
-.boxbutton {
-    width: 90%;
-    margin-left: 5%;
+.middle {
+    grid-area: middle;
+    background-color: white;
 }
 
-button {
-    padding: 10px 0;
-    border-radius: 5px;
-    border-style: none;
+.left {
+    grid-area: left;
+    background-color: white;
 }
 
-.right .boxbutton {
-    background-color: orange;
+.bottom-left {
+    grid-area: bottom-left;
 }
 
-.topbutton {
-    background-color: darkorange;
-    padding: 10px;
+.bottom-middle {
+    grid-area: bottom-middle;
 }
 
-div p:first-child {
-    font-size: 30px;
+.bottom-right {
+    grid-area: bottom-right;
 }
