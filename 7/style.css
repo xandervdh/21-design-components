@@ -6,39 +6,36 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 1px 1px;
-    grid-template-areas: "left middle right" "bottom-left bottom-middle bottom-right";
+    gap: 10px 10px;
 }
 
-.bottom {
-
-}
-
-.right {
-    grid-area: right;
-    background-color: white;
-    grid-row: 10;
-    height: 400%;
-}
-
-.middle {
-    grid-area: middle;
-    background-color: white;
+.box {
+    padding: 20px;
+    grid-row: 1;
 }
 
 .left {
-    grid-area: left;
+    background-color: white;
+    grid-column-end: 1;
+}
+
+.middle {
+    background-color: white;
+}
+
+.right {
     background-color: white;
 }
 
 .bottom-left {
-    grid-area: bottom-left;
+    background-color: white;
 }
 
 .bottom-middle {
-    grid-area: bottom-middle;
+    background-color: white;
+    border: 5px green;
 }
 
 .bottom-right {
-    grid-area: bottom-right;
+    background-color: white;
 }
