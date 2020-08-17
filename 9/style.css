@@ -1,0 +1,33 @@
+body {
+    width: 90%;
+    margin-top: 15%;
+}
+
+.text {
+    width: 30%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.text p {
+    font-size: 145%;
+}
+
+.text button {
+    color: white;
+    background-color: #188185;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.image {
+    width: 50%;
+    float: left;
+}
+
+.image img {
+    width: 80%;
+    margin-left: 10%;
+}
